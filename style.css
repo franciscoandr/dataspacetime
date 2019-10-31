@@ -1,18 +1,24 @@
 body{
-    font-family: 'IBM Plex Mono', monospace;
-    margin: 0;
-    background-color: #000000;
+        background-color: #000000;
 }
 
-#btnS{
+.content, html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'IBM Plex Mono';
+    font-size: 16pt;
+    color: #FFFFFF;
+}
+
+.btnS{
     height: 5vw;
 }
 
-#btnText{
+.btn{
     position: fixed;
     background-color: #ffffff;
     width: 50vw;
-    float: right;
+    float: left;
     border: none;
     color: #000000;
     padding: 15px 15px;
@@ -22,8 +28,7 @@ body{
     cursor: pointer;
     font-size: 20pt;
 }
-
-#btnText2{
+.btn2{
     position: fixed;
     background-color: #ffffff;
     width: 50vw;
@@ -37,6 +42,31 @@ body{
     font-size: 20pt;
     margin-left: 40vw;
     right: 0;
+}
+
+
+.left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: scroll;
+    margin-top: 5%;
+}
+
+.left::-webkit-scrollbar { 
+    width: 0 !important 
+}
+
+.right {
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: scroll;
+    margin-top: 5%;
+}
+
+.right::-webkit-scrollbar { 
+    width: 0 !important 
 }
 
 #bgVideo{
@@ -63,112 +93,14 @@ body{
     background-size: cover;
 }
 
-#otherText1{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#otherText2{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#otherText3{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#otherText4{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-#otherText5{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-#otherText6{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-#otherText7{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#otherText8{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#otherText9{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-
-#specialText1{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#specialText2{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#specialText3{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#specialText4{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#specialText5{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#specialText6{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#specialText7{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#specialText8{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
-#specialText9{
-    color: #FFFFFF;
-    font-size: 16pt;
-    text-align: justify;
-}
-
 h1{
-    color: #FFFFFF;
+    padding: 2%;
+}
+
+.specialText{
+    padding: 2%;
+}
+
+.otherText{
+    padding: 2%;
 }

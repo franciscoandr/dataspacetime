@@ -1,183 +1,181 @@
 <!DOCTYPE html>
-<html>
+<html >
     <head>
         <meta charset="utf-8">
-        <title>Data | Space | Time</title>
+        <title>DATA | SPACE | TIME</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="btnS">
-            <button id="btnText">IF YOU DON'T HAVE TIME, CLICK HERE!!!</button>
-            <button id="btnText2" onclick="location.reload();">IF YOU WANT TO GO BACK, CLICK HERE!!!</button></div>
-        
+        <button class="btn" onclick="changeColor()">IF YOU DON'T HAVE TIME, CLICK HERE!!!</button>
+        <button class="btn2" onclick="changeColor2()">IF YOU WANT TO GO BACK, CLICK HERE!!!</button>
         <video id="bgVideo" poster="img/poster2.png" autoplay muted loop>
             <source src="video/billViola2S.mp4" type="video/mp4">
         </video>
-
-
-        <h1>Will There Be Condominiums in Data Space?</h1>
-        <div id="specialText1">Video artists, and particularly interactive video artists, have developed approaches that can help us think about new media more broadly. For example, in the 1960s, when video seemed to be only lesser film for many people (less both in cost and value), artists began to explore the distinctive features of
-        the video medium.</div><div id="otherText1"> They have continued their explorations as the technologies involved—cameras, editing systems, image synthesis equipment, screens and projectors—have evolved. Hans-Peter Schwarz notes, in his “MediaVisions” essay, that the early results began to call into question the
-        sacrosanct status of montage, which had been central to film from the time of Eisenstein and Podovkin, in a manner even more fundamental than what experimental film had accomplished up to
-        that time. Part of this was through exploration of immediacy—examples of which include Nam June Paik’s immediately-screened video of the Pope’s visit (◊15), Les Levine’s self-surveillance installations at Software (◊16), and video environments in which artists presented images of the audience itself using different sorts of displacements in time and space: with a few second’s delay, in a narrow corridor, while traversing a maze. Though television production had used the technologies of video for some    time, artists’ video reconfigured public and industrial conceptions of the video image—via means ranging from site-specific installations to the “music video” form.</div><div id="specialText2">Bill Viola has been one of the highest-profile of video artists, allowing him to create, in recent years, what some have called “70 millimeter” video art—work in which video’s lower cost is not a primary attraction for the artist, and the traditionally rough production values of video art are not present.</div><div id="otherText2">However, what has remained consistent from Viola’s grittier early work to his massive late-1990s retrospective at the Whitney Museum is a poetic approach to exploring the video medium. As Michael
-        Rush wrote in his New Media in Late 20th Century Art, “Bill Viola’s work, perhaps more than any other, represents the tendency toward the lyrical in art” (140).This view of Viola’s work is perhaps instructive when considering the essay reprinted here—for
-        example, during his discussion of the MIT Media Lab’s famous Aspen Movie-Map. The project was brilliant, but limited by the fact that it was structured around a video hardware hack (as discussed in Andrew Lippman’s paper from SIGGRAPH 1980) which was mapped onto a navigation system meant to be as familiar as possible, so as to bring something already imagined to life. It remained for artists to seek, instead, surprise, and to create defamiliarizing forms of interaction that would allow the technology to be envisioned anew, instead of as a step toward making real what we already expected.
-        The work of Lynn Hershman (◊44) and Grahame Weinbren are important artist-led explorations of
-        interactive techniques and structures that, as Viola discusses, go beyond the basic branching flowchart,
-        a structure that had been applied to narrative two decades before by Raymond Queneau (◊12)
-        Hershman and Weinbren’s work, as well as Viola’s own, relates to the Aspen project or commercial            interactive video as poetry relates to an instruction manual or brochure. An instruction manual that
-        makes us consider language anew is usually a failure—such a document must be transparent in order
-        to be effective. Of course, the creation of effective structures for such manuals is a formidable
-        challenge, and such documents are essential. But few would wish to live in a culture in which our            ability to understand and use language was limited to what is evoked by such documents.</div>
-        <div id="specialText3">Possibly the most startling thing about our individual
-        existence is that it is continuous. It is an unbroken thread—we
-        have been living this same moment ever since we were
-        conceived.</div><div id="otherText3">It is memory, and to some extent sleep, that gives us
-        the impression of a life of discrete parts, periods, or sections, of
-        certain times or “highlights.” Hollywood movies and the media,
-        of course, reinforce this perception.
-        If things are perceived as discrete parts or elements, they can
-        be rearranged. Gaps become most interesting as places of
-        shadow, open to projection. Memory can be regarded as a filter
-        (as are the five senses)—it is a device implanted for our
-        survival. The curse of the mnemonist is the flood of images
-        that are constantly replaying in his brain. He may be able to
-        demonstrate extraordinary feats of recall, but the rest of the
-        banal and the mundane is playing back in there too, endlessly.
-        The result can be lack of sleep, psychosis, and even willful
-        death, driving some to seek professional psychiatric help (and
-        thus become history on the pages of medical journals and
-        books).1 This reincarnates one of the curses of early video
-        art—“record everything,” the saturation-bombing approach to
-        life which made so many early video shows so boring and
-        impossible to sit through.</div><div id="specialText4">Life without editing, it seems, is just
-        not that interesting.
-        It is only very recently that the ability to forget has become
-        a prized skill. In the age of “information overload,” we have
-        reached a critical mass that has accelerated the perfection of
-        recording technologies, an evolution that leads back to ancient
-        times.</div><div id="otherText4">Artificial memory systems have been around for
-        centuries. The early Greeks had their walks through temple,2
-        and successive cultures have refined and developed so-called
-        “mnemo-technics”—Thomas Aquinas described an elaborate
-        memory scheme of projecting images and ideas on places (fig.
-        31.2); in 1482 Jacobus Publicius wrote of using the spheres of
-        the universe as a memory system (fig. 31.2); Giulio Camillo
-        created a “Memory Theater” in Italy in the early 1500s; and
-        Giordano Bruno diagrammed his system of artificial memory
-        in his work Shadows, published in 1582. Frances Yates describes
-        this entire remarkable area in her brilliant book The Art of
-        Memory (University of Chicago Press, 1966).
-        When I was in Japan in 1981, I visited a festival of the dead
-        at one of the most sacred places in the country, Osoresan
-        Mountain. There I saw blind female shamen called itako calling
-        back the spirits of the dead for inquiring relatives, a centuriesold
-        practice. Until that time I had felt that the large Japanese
-        electronics companies were way ahead in the development of
-        communications technology. After witnessing the itako,
-        however, I realized they were way behind. Right in their own
-        backyard were people who, without the aid of wires or
-        hardware of any sort, have been for ages regularly
-        communicating through time and space with ancestors long
-        gone. An interesting place at the temple site (which was
-        perched in the surreal landscape of an extinct volcanic crater)
-        was a special walk for the visiting pilgrims to take along a
-        prescribed trail. The way led from the temple through a
-        volcanic wasteland of rockpiles and smoking fissures to the
-        shores of a crater lake. It was called “the walk through Hell.”
-        The path through the landscape and the points along it all
-        had special significance. The itako, to call up the dead, took
-        this “walk through Hell” in their minds, bringing the spirits
-        in along the familiar path, and when they were through, sent
-        them back the same way.</div>
-        <div id="specialText5">The interesting thing about idea spaces and memory systems
-        is that they presuppose the existence of some sort of place,
-        either real or graphic, which has its own structure and
-        architecture. There is always a whole space, which already
-        exists in its entirety, onto which ideas and images can be
-        mapped, using only that portion of the space needed.</div>
-        <div id="otherText5">In addition to the familiar model of pre-recorded time
-        unfolding along a linear path (as evidenced by many things
-        from our writing system to the thread of magnetic tape
-        playing in a videotape recorder), there is another parallel to
-        be linked with modern technology. “Data space” is a term we
-        hear in connection with computers. Information must be
-        entered into a computer’s memory to create a set of
-        parameters, defining some sort of ground, or field, where
-        future calculations and binary events will occur. In threedimensional
-        computer graphics, this field exists as an
-        imaginary but real chunk of space, a conceptual geometry,
-        theoretically infinite, within which various forms may be
-        created, manipulated, extended, and destroyed. The graphics
-        display screen becomes that mysterious third point of view
-        looking in on this space (we often call it our “mind’s eye”),
-        which can be moved about and relocated from any angle at
-        will. The catch is that the space must exist in the computer
-        first, so that there is a reference system within which to
-        locate the various coordinates of points and lines called into
-        being by the operator. In our brain, constantly flickering
-        pulses of neuron firings create a steady-state field onto
-        which disturbances and perturbations are registered as
-        percepts and thought forms. This is the notion that
-        something is already “on” before you approach it, like the
-        universe, or like a video camera which always needs to be
-        “video-ing” even if there is only a blank raster (“nothing”) to
-            see. Turn it off, and it’s not video anymore.</div>
-        <br>
-        <h1>Time Frames</h1>
-        <div id="specialText6">Scott McCloud is the Aristotle of comics, showing the way for contemporary thinkers who would seek to rigorously analyze emerging media. What Aristotle did for Attic drama in the Poetics, McCloud has done for the neglected form of comics.</div><div id="otherText6">He has explained what the most talented comic artists knew, although only Will Eisner had
-        begun to articulate it—how the comic format works, and what its underlying structures and
-        techniques are.</div><div id="specialText7"> He began by rigidly defining comics as “sequential art”</div><div id="otherText7">(or, if further explication is
-        necessary, “juxtaposed pictorial and other images in deliberate sequence”). McCloud then found
-        that, based on this definition, comics are as old as the ancient Egyptians. From there, he went on to
-        consider many of the important higher-level techniques of the comic artist: How does the variation
-        between generic and specific representation of people work? What “happens” in between the panels
-        of the comic images we read? What are the uses of color in the comic art form? And, as is discussed
-        in the chapter excerpted here, how can time be represented in a medium which is (although it is
-        read over a period of time) purely spatial? It is hardly necessary to even mention that McCloud’s
-        work has implcations for combining text and image, but it provides other lessons and examples.
-        Many of those involved with new media are pleased by McCloud’s deft metacomic tricks, a
-        number of which are represented in this chapter.</div><div id="specialText8">Since McCloud uses a narrative medium suited to
-        general exposition, he was able to write a comic about comics, and take advantage of this to
-        illustrate (in every sense of the word) his points.</div><div id="otherText8">Other similar attempts are not always as
-        successful: although there have been buildings constructed mainly to comment on architecture,
-        these are not usually popular or very habitable structures. While the first edition of George
-        Landow’s Hypertext was issued by Johns Hopkins on disk as Hypertext in Hypertext, this edition
-        never gained wide scholarly currency—not being as widely cited as the book it was based upon—
-        and Landow’s Hypertext 2.0 was not issued in a similar format. Some interest in hypertextual
-        criticism of hypertext remains, as can be seen in the September 2002 special issue of the Journal of
-        Digital Information, edited by Jill Walker and Susana Tosca. Perhaps this will build upon other
-        nonfiction hypertext work to provide interesting results; it may also simply be dancing about dance.</div><div id="specialText9">
-        Looking to Understanding Comics can provoke new media insight, but it’s certainly not the case
-        that all of McCloud’s techniques can be easily dragged and dropped into the digital realm.</div><div id="otherText9"> What
-        McCloud’s work nevertheless shows is that new forms, even those that have not been studied
-        seriously for centuries or even decades, do indeed have certain conventions and rules, and that if
-        the form being studied is considered with care and thought, these rules can be determined,
-        benefiting those who work in the form and are striving to improve the practice of their art.</div>
+        <div class="content">
+            <div class="left">
+                <h1>Will There Be Condominiums in Data Space?</h1>
+                <div class="specialText">Video artists, and particularly interactive video artists, have developed approaches that can help us think about new media more broadly. For example, in the 1960s, when video seemed to be only lesser film for many people (less both in cost and value), artists began to explore the distinctive features of
+                the video medium.</div><div class="otherText"> They have continued their explorations as the technologies involved—cameras, editing systems, image synthesis equipment, screens and projectors—have evolved. Hans-Peter Schwarz notes, in his “MediaVisions” essay, that the early results began to call into question the
+                sacrosanct status of montage, which had been central to film from the time of Eisenstein and Podovkin, in a manner even more fundamental than what experimental film had accomplished up to
+                that time. Part of this was through exploration of immediacy—examples of which include Nam June Paik’s immediately-screened video of the Pope’s visit (◊15), Les Levine’s self-surveillance installations at Software (◊16), and video environments in which artists presented images of the audience itself using different sorts of displacements in time and space: with a few second’s delay, in a narrow corridor, while traversing a maze. Though television production had used the technologies of video for some    time, artists’ video reconfigured public and industrial conceptions of the video image—via means ranging from site-specific installations to the “music video” form.</div><div class="specialText">Bill Viola has been one of the highest-profile of video artists, allowing him to create, in recent years, what some have called “70 millimeter” video art—work in which video’s lower cost is not a primary attraction for the artist, and the traditionally rough production values of video art are not present.</div><div class="otherText">However, what has remained consistent from Viola’s grittier early work to his massive late-1990s retrospective at the Whitney Museum is a poetic approach to exploring the video medium. As Michael
+                Rush wrote in his New Media in Late 20th Century Art, “Bill Viola’s work, perhaps more than any other, represents the tendency toward the lyrical in art” (140).This view of Viola’s work is perhaps instructive when considering the essay reprinted here—for
+                example, during his discussion of the MIT Media Lab’s famous Aspen Movie-Map. The project was brilliant, but limited by the fact that it was structured around a video hardware hack (as discussed in Andrew Lippman’s paper from SIGGRAPH 1980) which was mapped onto a navigation system meant to be as familiar as possible, so as to bring something already imagined to life. It remained for artists to seek, instead, surprise, and to create defamiliarizing forms of interaction that would allow the technology to be envisioned anew, instead of as a step toward making real what we already expected.
+                The work of Lynn Hershman (◊44) and Grahame Weinbren are important artist-led explorations of
+                interactive techniques and structures that, as Viola discusses, go beyond the basic branching flowchart,
+                a structure that had been applied to narrative two decades before by Raymond Queneau (◊12)
+                Hershman and Weinbren’s work, as well as Viola’s own, relates to the Aspen project or commercial            interactive video as poetry relates to an instruction manual or brochure. An instruction manual that
+                makes us consider language anew is usually a failure—such a document must be transparent in order
+                to be effective. Of course, the creation of effective structures for such manuals is a formidable
+                challenge, and such documents are essential. But few would wish to live in a culture in which our            ability to understand and use language was limited to what is evoked by such documents.</div>
+                <div class="specialText">Possibly the most startling thing about our individual
+                existence is that it is continuous. It is an unbroken thread—we
+                have been living this same moment ever since we were
+                conceived.</div><div class="otherText">It is memory, and to some extent sleep, that gives us
+                the impression of a life of discrete parts, periods, or sections, of
+                certain times or “highlights.” Hollywood movies and the media,
+                of course, reinforce this perception.
+                If things are perceived as discrete parts or elements, they can
+                be rearranged. Gaps become most interesting as places of
+                shadow, open to projection. Memory can be regarded as a filter
+                (as are the five senses)—it is a device implanted for our
+                survival. The curse of the mnemonist is the flood of images
+                that are constantly replaying in his brain. He may be able to
+                demonstrate extraordinary feats of recall, but the rest of the
+                banal and the mundane is playing back in there too, endlessly.
+                The result can be lack of sleep, psychosis, and even willful
+                death, driving some to seek professional psychiatric help (and
+                thus become history on the pages of medical journals and
+                books).1 This reincarnates one of the curses of early video
+                art—“record everything,” the saturation-bombing approach to
+                life which made so many early video shows so boring and
+                impossible to sit through.</div><div class="specialText">Life without editing, it seems, is just
+                not that interesting.
+                It is only very recently that the ability to forget has become
+                a prized skill. In the age of “information overload,” we have
+                reached a critical mass that has accelerated the perfection of
+                recording technologies, an evolution that leads back to ancient
+                times.</div><div class="otherText">Artificial memory systems have been around for
+                centuries. The early Greeks had their walks through temple,2
+                and successive cultures have refined and developed so-called
+                “mnemo-technics”—Thomas Aquinas described an elaborate
+                memory scheme of projecting images and ideas on places (fig.
+                31.2); in 1482 Jacobus Publicius wrote of using the spheres of
+                the universe as a memory system (fig. 31.2); Giulio Camillo
+                created a “Memory Theater” in Italy in the early 1500s; and
+                Giordano Bruno diagrammed his system of artificial memory
+                in his work Shadows, published in 1582. Frances Yates describes
+                this entire remarkable area in her brilliant book The Art of
+                Memory (University of Chicago Press, 1966).
+                When I was in Japan in 1981, I visited a festival of the dead
+                at one of the most sacred places in the country, Osoresan
+                Mountain. There I saw blind female shamen called itako calling
+                back the spirits of the dead for inquiring relatives, a centuriesold
+                practice. Until that time I had felt that the large Japanese
+                electronics companies were way ahead in the development of
+                communications technology. After witnessing the itako,
+                however, I realized they were way behind. Right in their own
+                backyard were people who, without the aid of wires or
+                hardware of any sort, have been for ages regularly
+                communicating through time and space with ancestors long
+                gone. An interesting place at the temple site (which was
+                perched in the surreal landscape of an extinct volcanic crater)
+                was a special walk for the visiting pilgrims to take along a
+                prescribed trail. The way led from the temple through a
+                volcanic wasteland of rockpiles and smoking fissures to the
+                shores of a crater lake. It was called “the walk through Hell.”
+                The path through the landscape and the points along it all
+                had special significance. The itako, to call up the dead, took
+                this “walk through Hell” in their minds, bringing the spirits
+                in along the familiar path, and when they were through, sent
+                them back the same way.</div>
+                <div class="specialText">The interesting thing about idea spaces and memory systems
+                is that they presuppose the existence of some sort of place,
+                either real or graphic, which has its own structure and
+                architecture. There is always a whole space, which already
+                exists in its entirety, onto which ideas and images can be
+                mapped, using only that portion of the space needed.</div>
+                <div class="otherText">In addition to the familiar model of pre-recorded time
+                unfolding along a linear path (as evidenced by many things
+                from our writing system to the thread of magnetic tape
+                playing in a videotape recorder), there is another parallel to
+                be linked with modern technology. “Data space” is a term we
+                hear in connection with computers. Information must be
+                entered into a computer’s memory to create a set of
+                parameters, defining some sort of ground, or field, where
+                future calculations and binary events will occur. In threedimensional
+                computer graphics, this field exists as an                    imaginary but real chunk of space, a conceptual geometry,
+                theoretically infinite, within which various forms may be
+                created, manipulated, extended, and destroyed. The graphics
+                display screen becomes that mysterious third point of view
+                looking in on this space (we often call it our “mind’s eye”),
+                which can be moved about and relocated from any angle at
+                will. The catch is that the space must exist in the computer
+                first, so that there is a reference system within which to
+                locate the various coordinates of points and lines called into
+                being by the operator. In our brain, constantly flickering
+                pulses of neuron firings create a steady-state field onto
+                which disturbances and perturbations are registered as
+                percepts and thought forms. This is the notion that
+                something is already “on” before you approach it, like the
+                universe, or like a video camera which always needs to be
+                “video-ing” even if there is only a blank raster (“nothing”) to
+                see. Turn it off, and it’s not video anymore.</div>
+            </div>
+            <div class="right">
+                <h1>Time Frames</h1>
+                <div class="specialText">Scott McCloud is the Aristotle of comics, showing the way for contemporary thinkers who would seek to rigorously analyze emerging media. What Aristotle did for Attic drama in the Poetics, McCloud has done for the neglected form of comics.</div><div class="otherText">He has explained what the most talented comic artists knew, although only Will Eisner had
+                begun to articulate it—how the comic format works, and what its underlying structures and
+                techniques are.</div><div class="specialText"> He began by rigidly defining comics as “sequential art”</div><div class="otherText">(or, if further explication is
+                necessary, “juxtaposed pictorial and other images in deliberate sequence”). McCloud then found
+                that, based on this definition, comics are as old as the ancient Egyptians. From there, he went on to
+                consider many of the important higher-level techniques of the comic artist: How does the variation
+                between generic and specific representation of people work? What “happens” in between the panels
+                of the comic images we read? What are the uses of color in the comic art form? And, as is discussed
+                in the chapter excerpted here, how can time be represented in a medium which is (although it is
+                read over a period of time) purely spatial? It is hardly necessary to even mention that McCloud’s
+                work has implcations for combining text and image, but it provides other lessons and examples.
+                Many of those involved with new media are pleased by McCloud’s deft metacomic tricks, a
+                number of which are represented in this chapter.</div><div class="specialText">Since McCloud uses a narrative medium suited to
+                general exposition, he was able to write a comic about comics, and  take advantage of this to
+                illustrate (in every sense of the word) his points.</div><div class="otherText">Other similar attempts are not always as
+                successful: although there have been buildings constructed mainly to comment on architecture,
+                these are not usually popular or very habitable structures. While the first edition of George
+                Landow’s Hypertext was issued by Johns Hopkins on disk as Hypertext in Hypertext, this edition
+                never gained wide scholarly currency—not being as widely cited as the book it was based upon—
+                and Landow’s Hypertext 2.0 was not issued in a similar format. Some interest in hypertextual
+                criticism of hypertext remains, as can be seen in the September 2002 special issue of the Journal of
+                Digital Information, edited by Jill Walker and Susana Tosca. Perhaps this will build upon other
+                nonfiction hypertext work to provide interesting results; it may also simply be dancing about dance.</div><div class="specialText">
+                Looking to Understanding Comics can provoke new media insight, but it’s certainly not the case
+                that all of McCloud’s techniques can be easily dragged and dropped into the digital realm.</div><div class="otherText"> What
+                McCloud’s work nevertheless shows is that new forms, even those that have not been studied
+                seriously for centuries or even decades, do indeed have certain conventions and rules, and that if
+                the form being studied is considered with care and thought, these rules can be determined,
+                benefiting those who work in the form and are striving to improve the practice of their art.</div>
+            </div>
+        </div>
+         <script>
+             function changeColor(){
+                var x = document.querySelectorAll("div.specialText");
+                var x2 = document.querySelectorAll("div.otherText");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.color = "yellow";
+                    x2[i].style.color = "grey";
+                }
+             }
+        </script>
+        <script>
+             function changeColor2(){
+                var x = document.querySelectorAll("div.specialText");
+                var x2 = document.querySelectorAll("div.otherText");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.color = "white";
+                    x2[i].style.color = "white";
+                }
+             }
+        </script>
     </body>
-    <script>
-        document.getElementById("btnText").onclick = function(){
-	       document.getElementById("specialText1").style.color = 'yellow'
-            document.getElementById("specialText2").style.color = 'yellow'
-            document.getElementById("specialText3").style.color = 'yellow'
-            document.getElementById("specialText4").style.color = 'yellow'
-            document.getElementById("specialText5").style.color = 'yellow'
-            document.getElementById("specialText6").style.color = 'yellow'
-            document.getElementById("specialText7").style.color = 'yellow'
-            document.getElementById("specialText8").style.color = 'yellow'
-            document.getElementById("specialText9").style.color = 'yellow'
-            document.getElementById('otherText1').style.color = '#2E2E2E'
-            document.getElementById('otherText2').style.color = '#2E2E2E'
-            document.getElementById('otherText3').style.color = '#2E2E2E'
-            document.getElementById('otherText4').style.color = '#2E2E2E'
-            document.getElementById('otherText5').style.color = '#2E2E2E'
-            document.getElementById('otherText6').style.color = '#2E2E2E'
-            document.getElementById('otherText7').style.color = '#2E2E2E'
-            document.getElementById('otherText8').style.color = '#2E2E2E'
-            document.getElementById('otherText9').style.color = '#2E2E2E'
-          //document.getElementById('bgVideo').style.visibility = 'hiden'
-          //document.getElementById('otherText').style.visibility='hidden'"
-        }
-    </script>
 </html>
