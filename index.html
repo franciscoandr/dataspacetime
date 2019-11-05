@@ -9,9 +9,22 @@
     <body>
         <button class="btn" onclick="changeColor()">IF YOU DON'T HAVE TIME, CLICK HERE!!!</button>
         <button class="btn2" onclick="changeColor2()">IF YOU WANT TO GO BACK, CLICK HERE!!!</button>
+        
+        <a class="numbers" href="#" onclick="function1()"><p id="btn3">+</p></a>
+        
         <video id="bgVideo"  autoplay muted loop>
             <source src="video/billViola3.mp4" type="video/mp4">
         </video>
+        
+        <div id="info">
+            Bill Viola explora o espaço com de performances em vídeo. O objetivo das suas criações é prender o expectador às suas narrativas e mensagens, que pretendem ser emocionantes e cativantes. 
+            Através de “Time Frames”, Scott McClud explora o tempo através da banda desenhada. Mostra que as pessoas foram treinadas para ver uma imagem como um único intervalo de tempo, mas na banda desenhada, apesar de o leitor conseguir ver uma página inteira, cada quadradinho representa um intervalo de tempo, ou seja, McCloud caracteriza a banda desenhada como uma corda, cada palmo de corda, representa um segundo.
+            <br>
+            <br>
+            A interpretação de McCloud acerca do tempo, bem como as narrativas de Bill Viola, ligam-se através precisamente do tempo. Bill Viola no seu trabalho, aborda muitas vezes, o nascimento, a morte, e os seus processos, e isso sem dúvida que tem uma ligação temporal. 
+
+        </div>
+        
         <div class="content">
             <div class="left">
                 <h1>Will There Be Condominiums in Data Space?</h1>
@@ -170,6 +183,16 @@
                     x2[i].style.color = "white";
                 }
              }
+        </script>
+        <script>
+                function function1() {
+                var x = document.getElementById("info");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                x.style.display = "none";
+                }
+            }
         </script>
     </body>
 </html>

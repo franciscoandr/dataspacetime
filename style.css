@@ -44,6 +44,27 @@ body{
     right: 0;
 }
 
+#btn3{
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 95%;
+    font-size: 50pt;
+    color: #FFFFFF;
+}
+
+#info{
+    background-color: black;
+    position: fixed;
+    color: #FFFFFF;
+    margin-left: 70%;
+    margin-top: 10%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 1%;
+    font-size: 12pt;
+    display: none;
+}
 
 .left {
     float: left;
